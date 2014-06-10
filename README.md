@@ -9,6 +9,14 @@
 ipcl
 ```
 
+## Binary download link
+* [linux_amd64](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/linux_amd64/ipcl)
+* [linux_386](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/linux_386/ipcl)
+* [darwin_amd64](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/darwin_amd64/ipcl)
+* [darwin_386](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/darwin_386/ipcl)
+* [windows_amd64](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/windows_amd64/ipcl.exe)
+* [windows_386](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/windows_386/ipcl.exe)
+
 ## Usage
 
 ```

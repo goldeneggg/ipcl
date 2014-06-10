@@ -31,6 +31,7 @@ func main() {
 	// get source CIDRs
 	cidrs, e := getCIDRs()
 	if e != nil {
+		fmt.Printf("%s\n", e)
 		os.Exit(1)
 	}
 

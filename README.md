@@ -1,4 +1,4 @@
-# ipcl [![Build Status](https://drone.io/github.com/jpshadowapps/ipcl/status.png)](https://drone.io/github.com/jpshadowapps/ipcl/latest)
+# ipcl [![Build Status](https://drone.io/github.com/jpshadowapps/ipcl/status.png)](https://drone.io/github.com/jpshadowapps/ipcl/latest) [![GoDoc](https://godoc.org/github.com/jpshadowapps/ipcl?status.png)](https://godoc.org/github.com/jpshadowapps/ipcl)
 * __ipcl__ is IP addresses calculator from CIDR.
 
 ## Install

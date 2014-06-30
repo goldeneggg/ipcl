@@ -3,7 +3,7 @@ package writer
 import (
 	"bytes"
 	"fmt"
-	"github.com/jpshadowapps/ipcl/parser"
+	"github.com/goldeneggg/ipcl/parser"
 	"io"
 	"os"
 	"strconv"

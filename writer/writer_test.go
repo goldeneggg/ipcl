@@ -2,7 +2,7 @@ package writer
 
 import (
 	//"fmt"
-	"github.com/jpshadowapps/ipcl/parser"
+	"github.com/goldeneggg/ipcl/parser"
 )
 
 type defaultFormat struct {

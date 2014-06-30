@@ -4,8 +4,8 @@ import (
 	"bufio"
 	"flag"
 	"fmt"
-	"github.com/jpshadowapps/ipcl/parser"
-	"github.com/jpshadowapps/ipcl/writer"
+	"github.com/goldeneggg/ipcl/parser"
+	"github.com/goldeneggg/ipcl/writer"
 	"os"
 	"runtime"
 )

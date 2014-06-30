@@ -1,21 +1,21 @@
-# ipcl [![Build Status](https://drone.io/github.com/jpshadowapps/ipcl/status.png)](https://drone.io/github.com/jpshadowapps/ipcl/latest) [![GoDoc](https://godoc.org/github.com/jpshadowapps/ipcl?status.png)](https://godoc.org/github.com/jpshadowapps/ipcl)
+# ipcl [![Build Status](https://drone.io/github.com/goldeneggg/ipcl/status.png)](https://drone.io/github.com/goldeneggg/ipcl/latest) [![GoDoc](https://godoc.org/github.com/goldeneggg/ipcl?status.png)](https://godoc.org/github.com/goldeneggg/ipcl)
 * __ipcl__ is IP addresses calculator from CIDR.
 
 ## Install
 
 ```
-% go get github.com/jpshadowapps/ipcl
+% go get github.com/goldeneggg/ipcl
 % ls $GOBIN/ipcl
 ipcl
 ```
 
 ## Binary download link
-* [linux_amd64](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/linux_amd64/ipcl)
-* [linux_386](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/linux_386/ipcl)
-* [darwin_amd64](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/darwin_amd64/ipcl)
-* [darwin_386](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/darwin_386/ipcl)
-* [windows_amd64](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/windows_amd64/ipcl.exe)
-* [windows_386](https://drone.io/github.com/jpshadowapps/ipcl/files/artifacts/bin/windows_386/ipcl.exe)
+* [linux_amd64](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/linux_amd64/ipcl)
+* [linux_386](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/linux_386/ipcl)
+* [darwin_amd64](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/darwin_amd64/ipcl)
+* [darwin_386](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/darwin_386/ipcl)
+* [windows_amd64](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/windows_amd64/ipcl.exe)
+* [windows_386](https://drone.io/github.com/goldeneggg/ipcl/files/artifacts/bin/windows_386/ipcl.exe)
 
 ## Usage
 

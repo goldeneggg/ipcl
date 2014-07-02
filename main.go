@@ -20,19 +20,25 @@ var isTsv = flag.Bool("tsv", false, "Output format is tsv")
 var printVersion = flag.Bool("version", false, "Print version")
 
 func main() {
+	var status int
+
 	// option parse
 	flag.Parse()
 
+	defer func() { os.Exit(status) }()
+
 	if *printVersion {
 		fmt.Printf("Ipcl: version %s (%s)\n", Version, runtime.GOARCH)
-		os.Exit(2)
+		status = 2
+		return
 	}
 
 	// get source CIDRs
 	cidrs, e := getCIDRs()
 	if e != nil {
 		fmt.Printf("%s\n", e)
-		os.Exit(1)
+		status = 1
+		return
 	}
 
 	// write

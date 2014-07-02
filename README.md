@@ -20,11 +20,17 @@ ipcl
 ## Usage
 
 ```
-Usage of ipcl:
-  -csv=false: Output format is csv
-  -f="": Filepath listed target CIDR
-  -tsv=false: Output format is tsv
-  -version=false: Print version
+Usage:
+  ipcl [OPTIONS] [CIDR TEXT]
+
+Application Options:
+  -f, --file=    Filepath listed target CIDR
+  -c, --csv=     Output format is csv
+  -t, --tsv=     Output format is tsv
+  -v, --version  Print version
+
+Help Options:
+  -h, --help     Show this help message
 ```
 
 * Single argument of CIDR string
@@ -40,7 +46,7 @@ max_address : 192.168.1.254
 broadcast   : 192.168.1.255
 ```
 
-* Multi CIDR strings from file using `-f` option
+* Multi CIDR strings from file using `-f``--file` option
 
 ```
 % cat cidrs.txt
@@ -74,17 +80,17 @@ max_address : 255.255.255.254
 broadcast   : 255.255.255.255
 ```
 
-* You can use CSV or TSV format using `-csv` or `-tsv` option
+* You can use CSV or TSV format using `-c``--csv` or `-t``--tsv` option
 
 ```
-% ipcl -f cidrs.txt -csv
+% ipcl -f cidrs.txt -c
 source_cidr,network,mask,host_num,min_address,max_address,broadcast
 192.168.1.0/24,192.168.1.0,255.255.255.0,254,192.168.1.1,192.168.1.254,192.168.1.255
 192.168.1.0/28,192.168.1.0,255.255.255.240,14,192.168.1.1,192.168.1.14,192.168.1.15
 192.168.1.0/2,192.0.0.0,192.0.0.0,1073741822,192.0.0.1,255.255.255.254,255.255.255.255
 ```
 ```
-% ipcl -f cidrs.txt -tsv
+% ipcl -f cidrs.txt -t
 source_cidr     network mask    host_num        min_address     max_address     broadcast
 192.168.1.0/24  192.168.1.0     255.255.255.0   254     192.168.1.1     192.168.1.254   192.168.1.255
 192.168.1.0/28  192.168.1.0     255.255.255.240 14      192.168.1.1     192.168.1.14    192.168.1.15

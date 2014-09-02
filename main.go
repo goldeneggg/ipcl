@@ -62,6 +62,7 @@ func main() {
 	cidrs, e := getCIDRs(oa)
 	if e != nil {
 		fmt.Printf("%s\n", e)
+		printHelp()
 		status = 1
 		return
 	}
@@ -107,7 +108,6 @@ func fromFile(oa *optArgs) ([]string, error) {
 
 	f, err := os.Open(oa.opts.File)
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "%s\n", err)
 		return cidrs, err
 	}
 	defer f.Close()
@@ -132,7 +132,7 @@ func write(cidrs []parser.CIDRInfo, oa *optArgs) {
 func printHelp() {
 	h := `
 Usage:
-  ipcl [OPTIONS] [CIDR TEXT]
+  ipcl [OPTIONS] <CIDR TEXT | -f <FILE>>
 
 Application Options:
   -f, --file=    Filepath listed target CIDR

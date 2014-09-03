@@ -1,1 +1,5 @@
 *.swp
+*.log
+Godeps/Readme
+Godeps/_workspace
+.profile

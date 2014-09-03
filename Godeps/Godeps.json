@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/goldeneggg/ipcl",
+	"GoVersion": "go1.3",
+	"Deps": [
+		{
+			"ImportPath": "github.com/jessevdk/go-flags",
+			"Comment": "v1-211-g7dff25f",
+			"Rev": "7dff25ff3dc42258f880b5388ac9251bc54be0bb"
+		}
+	]
+}

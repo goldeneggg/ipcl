@@ -1,4 +1,4 @@
-# ipcl [![Build Status](https://drone.io/github.com/goldeneggg/ipcl/status.png)](https://drone.io/github.com/goldeneggg/ipcl/latest) [![GoDoc](https://godoc.org/github.com/goldeneggg/ipcl?status.png)](https://godoc.org/github.com/goldeneggg/ipcl) [![MIT License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/goldeneggg/ipcl/blob/master/LICENCE)
+# ipcl [![Build Status](https://drone.io/github.com/goldeneggg/ipcl/status.png)](https://drone.io/github.com/goldeneggg/ipcl/latest) [![GoDoc](https://godoc.org/github.com/goldeneggg/ipcl?status.png)](https://godoc.org/github.com/goldeneggg/ipcl) [![MIT License](http://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/goldeneggg/ipcl/blob/master/LICENSE)
 * __ipcl__ is IP addresses calculator from CIDR.
 
 ## Install

@@ -1,0 +1,9 @@
+v0.2.0
+* go-flags
+* added subfiles (ex. LICENSE, etc)
+
+v0.1.0
+* Initial commit
+
+Contributors:
+* goldeneggg (@goldeneggg)

@@ -18,5 +18,8 @@ proftest:
 depbuild: deptest
 	$(GODEP) $(GO) build -o $(GOBIN)/$(BINNAME)
 
-deptest:
+deptest: depsave
 	$(GODEP) $(GO) test $(TESTTARGET)
+
+depsave:
+	$(GODEP) save ./...

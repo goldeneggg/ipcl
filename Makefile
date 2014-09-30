@@ -9,8 +9,11 @@ all: build
 build: test
 	$(GO) build -o $(GOBIN)/$(BINNAME)
 
-test:
+test: getdeps
 	$(GO) test $(TESTTARGET)
+
+getdeps:
+	$(GO) get github.com/jessevdk/go-flags
 
 proftest:
 	[ ! -d $(PROFDIR) ] && mkdir $(PROFDIR); $(GO) test -bench . -benchmem -blockprofile $(PROFDIR)/block.out -cover -coverprofile $(PROFDIR)/cover.out -cpuprofile $(PROFDIR)/cpu.out -memprofile $(PROFDIR)/mem.out $(TESTTARGET)

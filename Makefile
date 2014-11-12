@@ -1,6 +1,6 @@
 GO ?= go
 GODEP ?= godep
-PGMPKGPATH := ./app
+PGMPKGPATH := .
 BINNAME := ipcl
 PROFDIR := ./.profile
 TESTTARGET := ./lib/parser

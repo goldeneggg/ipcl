@@ -3,11 +3,12 @@ package writer
 import (
 	"bytes"
 	"fmt"
-	"github.com/goldeneggg/ipcl/parser"
 	"io"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/goldeneggg/ipcl/lib/parser"
 )
 
 var (

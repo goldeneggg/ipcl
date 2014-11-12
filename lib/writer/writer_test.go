@@ -2,7 +2,7 @@ package writer
 
 import (
 	//"fmt"
-	"github.com/goldeneggg/ipcl/parser"
+	"github.com/goldeneggg/ipcl/lib/parser"
 )
 
 type defaultFormat struct {

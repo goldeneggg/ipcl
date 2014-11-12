@@ -6,13 +6,13 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/goldeneggg/ipcl/parser"
-	"github.com/goldeneggg/ipcl/writer"
+	"github.com/goldeneggg/ipcl/lib/parser"
+	"github.com/goldeneggg/ipcl/lib/writer"
 	"github.com/jessevdk/go-flags"
 )
 
 const (
-	Version = "0.2.0"
+	Version = "0.3.0"
 )
 
 // element names need to Uppercase

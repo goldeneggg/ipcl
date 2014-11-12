@@ -1,13 +1,14 @@
 GO ?= go
 GODEP ?= godep
+PGMPKGPATH := ./app
 BINNAME := ipcl
 PROFDIR := ./.profile
-TESTTARGET := ./parser
+TESTTARGET := ./lib/parser
 
 all: build
 
 build: test
-	$(GO) build -o $(GOBIN)/$(BINNAME)
+	$(GO) build -o $(GOBIN)/$(BINNAME) $(PGMPKGPATH)
 
 test: getdeps
 	$(GO) test $(TESTTARGET)
@@ -22,7 +23,7 @@ proftest: getdeps
 
 # Following targets using "godep"
 depbuild: deptest
-	$(GODEP) $(GO) build -o $(GOBIN)/$(BINNAME)
+	$(GODEP) $(GO) build -o $(GOBIN)/$(BINNAME) $(PGMPKGPATH)
 
 deptest: depsave
 	$(GODEP) $(GO) test $(TESTTARGET)
